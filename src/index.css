@@ -1,8 +1,9 @@
-@import-normalize; /* bring in normalize.css styles */
-
+@import-normalize;
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  width: 480px;
+  padding: 40px;
+  margin: 0 auto;
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
