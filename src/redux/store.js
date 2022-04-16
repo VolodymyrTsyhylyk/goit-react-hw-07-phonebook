@@ -1,15 +1,11 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import contactsReducer from './reducers';
-
-const rootReducer = combineReducers({
-  contacts: contactsReducer,
-});
+import { configureStore } from '@reduxjs/toolkit';
+import contactsSlice, { filterReducer } from './phoneBook/phonebook-reducer';
 
 const store = configureStore({
-  reducer: rootReducer,
-  middleware: getDefaultMiddleware =>
-    getDefaultMiddleware({
-      serializableCheck: false,
-    }),
+    reducer: {
+        phoneBook: contactsSlice,
+        filter: filterReducer,
+    },
 });
+
 export default store;

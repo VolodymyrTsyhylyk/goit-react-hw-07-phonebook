@@ -1,15 +1,20 @@
-.filter {
-  padding: 20px;
-  border: 1px solid gray;
-  align-items: center;
-  background-color: rgb(238, 255, 0);
-  border-bottom: none;
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+}
+.value {
+    height: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.value:hover,
+.value:focus {
+    box-shadow: 0 14px 28px rgba(57, 60, 252, 0.25),
+        0 10px 10px rgba(24, 36, 206, 0.22);
 }
 
-.title {
-  display: block;
-  margin: 0 0 10px;
-}
-.input {
-  width: 200px;
-}

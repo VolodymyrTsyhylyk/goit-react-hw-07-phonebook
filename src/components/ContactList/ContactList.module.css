@@ -1,7 +1,10 @@
-.contacts {
-  margin: 0;
-  padding: 20px;
-  border: 1px solid gray;
-  align-items: center;
-  background-color:rgb(238, 255, 0);
-} 
+.buttonDelete {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.text {
+    text-shadow: 0 0 15px #4444e9;
+    font-weight: 600;
+    /* padding-left: 100px; */
+}
+
